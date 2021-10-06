@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index1.css">
+      <script defer src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">ABOUT-US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="final.html">CONTACT</a>
+          </li>
+        </ul>
+
+      <ul class="navbar-nav ml">
+
+
+       <form class="form2" action="register.html" method="post" >
+        <li class="nav-item"><button type="submit" class="btn btn-light navbar-btn register"><i class="fas fa-user"></i>&nbsp Register</button></li>
+       </form>
+       <form class="form3" action="admin_login.html" method="post">
+        <li class="nav-item"><button type="submit" class="btn btn-light navbar-btn admin"><i class="fas fa-user-lock"></i>&nbsp Admin</button></li>
+       </form>
+
+      </ul>
+    </div>
+  </nav>
+
+<div class="container-fluid">
+
+
+ <div class="row">
+<div class="col-lg-6">
+<img src="3.png" alt="image">
+</div>
+<div class="col-lg-6">
+
+<form method="post" action="vote.jsp" class="formclass">
+
+<label for="voter_id">Enter Your Login_ID:</label>
+<input type="text" name="login_id" id="login_id">
+<br >
+<br>
+<label for="password">Enter Your Password:</label>
+<input type="password" name="password" id="password" >
+<br>
+<br>
+<button type="submit" class="login_btn"><i class="fas fa-sign-in-alt"></i> Login</button>
+<br >
+ </form>
+</div>
+</div>
+</div>
+
+  </body>
+</html>

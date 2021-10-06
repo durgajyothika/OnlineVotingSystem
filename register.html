@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="register.css" >
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid ">
+
+    <div class="row">
+      <div class=" col-lg-6 class1">
+    <form method="POST" action="voter_register.jsp" class="formclass">
+  <label for="name"> Enter your Name:</label>
+  <input type="text" name="voter_name" class="a">
+  <label for="DateOfBirth">Enter your DateOfBirth:</label>
+<input type="date" name="voter_dob" class="b" placeholder="     dd/mm/yyyy">
+<br>
+<label for="age">Enter your age:</label>
+<input type="number" name="voter_age" class="c">
+<br>
+<label for="Gender">Enter your Gender:</label>
+<input type="radio" name="voter_gender"value="female" class="r1">
+Female
+<br>
+<input type="radio" name="voter_gender" value="male" class="r2"> Male
+<br>
+<input type="radio" name="voter_gender" value="other" class="r3"> Other
+<br>
+<label for="Address" class="address">Enter Your Address:</label>
+<br>
+<textarea name="voter_address" class="d" placeholder="  city,district" rows="5" cols="10"></textarea>
+<br>
+<br>
+<label for="PhoneNO">Enter Your PhoneNO:</label>
+<input type="number" name="voter_phoneno" pattern="{0-9}{10}"class="e" placeholder="     10-digit number">
+<br>
+<br>
+</div>
+<div class=" col-lg-6 class2">
+  <label for="voterid">Enter Your voterid:</label>
+  <input type="text" name="voter_id" class="f">
+ <br>
+  <label for="loginid">Enter your loginid:</label>
+  <input type="text" name="login_id" class="g">
+  <br>
+
+  <label for="password">Enter your password:</label>
+  <input type="password" name="psw" class="h">
+  <br>
+
+  <label for="Confrimpassword">Confrim your password:</label>
+  <input type="password" name="psw1" class="i">
+  <br>
+
+  <button type="submit" class="btn btn-dark j">Register</button>
+
+</div>
+</form>
+  </div>
+</body>
+</html>

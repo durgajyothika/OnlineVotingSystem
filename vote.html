@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>vote</title>
+    
+    <!-- bootstrap&csslinks -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="vote.css" >
+    <!-- fontawesome links -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <script defer src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+      <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <form method="POST" action="pole.jsp">
+    <label for="voterid" class="a1">Enter your voterid:</label>
+    <input type="text" name="voter_id" class="a2">
+<br>
+<div class="container-fluid">
+<div class="row">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="bjp.jfif" alt="Card image cap" height="70%">
+    <div class="card-body">
+      <h4 class="card-text"><i class="fas fa-vote-yea"></i>Vote</h4>
+      <input type="submit" name="pole" value="bjp" class="b1" >
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+  <img class="card-img-top c2" src="ysrcp.jpg" alt="Card image cap" width="10%" height="60%">
+  <div class="card-body">
+    <h4 class="card-text c3"><i class="fas fa-vote-yea"></i>Vote </h4>
+    <input type="submit" name="pole" value="ysrcp" class="b2" >
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="janasena.jpg" alt="Card image cap" width="50%" height="70%">
+  <div class="card-body">
+    <h4 class="card-text"><i class="fas fa-vote-yea"></i>Vote</h4>
+      <input type="submit" name="pole" value="janasena" class="b3">
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="tdp.png" alt="Card image cap" width="50%" height="70%">
+  <div class="card-body">
+    <h4 class="card-text"><i class="fas fa-vote-yea"></i>Vote</h4>
+      <input type="submit" name="pole" value="tdp" class="b3">
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="congress.jpg" alt="Card image cap" width="70%" height="70%">
+  <div class="card-body">
+    <h4 class="card-text"><i class="fas fa-vote-yea"></i>Vote</h4>
+      <input type="submit" name="pole" value="congress" class="b3">
+  </div>
+</div>
+</div>
+</div>
+    </form>
+
+  </body>
+</html>

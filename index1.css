@@ -1,0 +1,75 @@
+
+body{
+
+    background-color: #39A6A3;
+font-size: 1.3rem;
+font-weight: bold;
+}
+.register{
+  width: 120px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.form2{
+  margin:10px 0 5px 700px;
+
+}
+.admin{
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 120px;
+}
+.form3{
+  margin: 10px 0 5px 20px;
+}
+img{
+  width:700px;
+  height:500px;
+  margin-top: 5px;
+}
+
+.formclass{
+  margin:150px 30px 0 70px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  text-align: center;
+  border: 2px dashed black;
+ }
+#login_id{
+width:200px;
+  margin-left: 15px;
+  border: none;
+  border-radius: 3px;
+}
+#login_id:focus{
+  border: 2px solid ;
+}
+#password{
+  width:200px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 3px;
+}
+#password:focus{
+  border: 2px solid ;
+}
+.login_btn {
+  background: #01060a;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 40px 5px 40px;
+  text-decoration: none;
+  border: none;
+  margin-left: 200px;
+}
+
+.login_btn:hover {
+  background: #343A40;
+  text-decoration: none;
+}
